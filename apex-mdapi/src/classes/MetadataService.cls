@@ -1661,7 +1661,7 @@ public class MetadataService {
         public String fullName;
         private String[] fullName_type_info = new String[]{'fullName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
         public String description;
-        public MetadataService.GlobalPicklistValue[] globalPicklistValues;
+        public MetadataService.PicklistValue[] globalPicklistValues;
         public String masterLabel;
         public Boolean sorted;
         private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
